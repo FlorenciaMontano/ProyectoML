@@ -15,7 +15,6 @@ header {
 
 }
 
-
 .renglon, .seccion-ofertas, .seccion-visita {
     display: flex;
     flex-wrap: wrap;
@@ -104,8 +103,7 @@ main
 
 .producto 
 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 15px;
     width: 95%;
 }
 
@@ -131,6 +129,17 @@ main
     font-family: 'Roboto';
     font-size: 16px;  
 }
+
+
+
+/* mobile */
+@media (max-width: 361px) {
+    .descripcion{
+        display:none;
+    }
+}
+
+
 /* tablet */
 @media (min-width: 361px) {
     .producto{
@@ -141,6 +150,8 @@ main
         display: none;
     }  
 }
+
+
 
 /* desktop */
 @media (min-width: 769px) 
